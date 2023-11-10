@@ -1,5 +1,3 @@
 class Current < ActiveSupport::CurrentAttributes
-  def initialize
-    attributes :user
-  end
+    attribute :user
 end
